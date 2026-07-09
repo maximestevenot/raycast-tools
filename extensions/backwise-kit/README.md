@@ -1,24 +1,34 @@
-# Brandkit
+# Backwise Kit
 
-A Raycast extension to quickly find and copy colors from your design system.
+A Raycast extension for the Backwise toolkit: design-system colors and company legal info.
 
-## Command
+## Commands
 
-**Search Colors** — opens a filterable list of all design-system colors, grouped by
-category (Neutral, Brand, Informative, Negative, Accent, Positive, Notice).
+### Search Colors
+
+Opens a filterable list of all design-system colors, grouped by category (Neutral, Brand,
+Informative, Negative, Accent, Positive, Notice).
 
 - Type to filter: `neutral` shows every neutral shade, `neutral 200` narrows to one,
   and you can also search by hex (`#fffcf2`) or token name (`--color-bw-neutral-200`).
 - Each row shows a color swatch, the name, and the hex value.
 - Navigate with the arrow keys.
 
-### Actions
-
 | Shortcut    | Action                  | Copies                          |
 | ----------- | ----------------------- | ------------------------------- |
 | `↵`         | Copy Hex Code           | `#fffcf2`                       |
 | `⌘ .`       | Copy CSS Variable       | `var(--color-bw-neutral-200)`   |
 | `⌘ ⇧ .`     | Copy CSS Variable Name  | `--color-bw-neutral-200`        |
+
+### Legal Info
+
+A copyable list of the company's legal identifiers — SIREN, SIRET, VAT number, and NAF
+codes. `↵` copies a value; `⌘ K` also offers **Open in Annuaire des Entreprises** (the
+public registry) and **Copy Registry Link**.
+
+**IBAN and BIC are not stored in the repository.** Set them per-machine in Raycast
+(**Extensions → Backwise Kit → Legal Info**); once filled they appear at the bottom of the
+list, and never enter git.
 
 ## Development
 

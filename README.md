@@ -6,16 +6,16 @@ A collection of personal [Raycast](https://www.raycast.com) tools.
 
 | Tool | Type | Description |
 | --- | --- | --- |
-| [`extensions/brandkit`](extensions/brandkit) | Extension (TS + React) | Find and copy colors from a design system. |
+| [`extensions/backwise-kit`](extensions/backwise-kit) | Extension (TS + React) | Find and copy colors from a design system. |
 | [`scripts/random-generator.sh`](scripts/random-generator.sh) | Script Command (bash) | Generate a random string, password, or UUID and copy it to the clipboard. |
 
-## brandkit
+## backwise-kit
 
 A Raycast extension for searching and copying design-system colors. See its
-[README](extensions/brandkit/README.md) for usage, actions, and development commands.
+[README](extensions/backwise-kit/README.md) for usage, actions, and development commands.
 
 ```sh
-cd extensions/brandkit
+cd extensions/backwise-kit
 npm install
 npm run dev      # live reload in Raycast
 ```

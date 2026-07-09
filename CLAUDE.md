@@ -7,14 +7,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 This is a collection of personal Raycast tools. Each tool is independent — there is no
 workspace root tooling that ties them together.
 
-- `extensions/brandkit/` — a full Raycast extension (TypeScript + React). Has its own
+- `extensions/backwise-kit/` — a full Raycast extension (TypeScript + React). Has its own
   `package.json`; run all npm commands from inside this directory.
 - `scripts/random-generator.sh` — a standalone Raycast [Script Command](https://github.com/raycast/script-commands)
   (no build step; the `# @raycast.*` header comments are its manifest).
 
-## brandkit extension
+## backwise-kit extension
 
-All commands run from `extensions/brandkit/`:
+All commands run from `extensions/backwise-kit/`:
 
 ```sh
 npm install

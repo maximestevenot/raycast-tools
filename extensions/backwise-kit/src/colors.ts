@@ -1,5 +1,5 @@
 /**
- * Design system color tokens for the Brandkit Raycast extension.
+ * Design system color tokens for the Backwise Kit Raycast extension.
  *
  * Tokens follow the `--color-bw-<category>-<shade>` convention. The list is
  * already de-duplicated here (the source CSS repeated a few neutral shades).
